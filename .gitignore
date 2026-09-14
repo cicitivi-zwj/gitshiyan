@@ -1,0 +1,83 @@
+# ============================================================
+# 通用忽略规则（跨语言起点，按项目需要增删）
+# 参考：https://git-scm.com/docs/gitignore
+# ============================================================
+
+# ---------- 操作系统 / Windows ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+*.lnk
+.DS_Store
+
+# ---------- 编辑器 / IDE ----------
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.swp
+*.swo
+*~
+.history/
+.obsidian/workspace*.json
+
+# ---------- Office / 临时文件 ----------
+~$*
+*.tmp
+*.temp
+*.bak
+tmp/
+temp/
+
+# ---------- 日志 ----------
+*.log
+logs/
+
+# ---------- 密钥 / 本地私有配置（绝不要提交）----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+credentials.json
+
+# ---------- 构建产物 / 缓存 ----------
+build/
+dist/
+out/
+coverage/
+.cache/
+*.tsbuildinfo
+
+# ---------- Node.js / TypeScript ----------
+node_modules/
+.pnpm-store/
+.npm/
+.next/
+.nuxt/
+.yarn/cache/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---------- 大文件 / 数据（如需忽视，取消下面注释）----------
+# *.zip
+# *.7z
+# *.iso
+# data/
+# *.csv
+# *.xlsx
