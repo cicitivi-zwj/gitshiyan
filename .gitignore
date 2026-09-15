@@ -81,3 +81,4 @@ env/
 # data/
 # *.csv
 # *.xlsx
+node_modules/
