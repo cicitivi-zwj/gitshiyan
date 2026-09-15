@@ -53,6 +53,9 @@ coverage/
 .cache/
 *.tsbuildinfo
 
+# ---------- Git 工作树（git worktree add 的目标目录）----------
+.worktrees/
+
 # ---------- Node.js / TypeScript ----------
 node_modules/
 .pnpm-store/
