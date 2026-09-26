@@ -71,6 +71,10 @@ credentials.json
 # 例外：wendang 是文档同步专区，里面的 Word 文档明确要上传
 !wendang/*.docx
 
+# ---------- 程序 / 压缩包（仓库只放源码和小文档，exe/rar 用网盘备份）----------
+*.exe
+*.rar
+
 # ---------- 构建产物 / 缓存 ----------
 build/
 dist/
