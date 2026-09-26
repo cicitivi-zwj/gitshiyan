@@ -68,6 +68,8 @@ credentials.json
 *.keystore
 # 说明：以上规则按文件名/扩展名匹配，如需强制加入某个文件用 git add -f <文件>；
 #      如需为某目录放行，加一条例外规则，例如：!docs/设计文档.docx
+# 例外：wendang 是文档同步专区，里面的 Word 文档明确要上传
+!wendang/*.docx
 
 # ---------- 构建产物 / 缓存 ----------
 build/
